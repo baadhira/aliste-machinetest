@@ -25,7 +25,7 @@ export const RoomName = () => {
     <div>
         <h1>Enter room names</h1>
         <div className="row" style={{display:"block",flexDirection:"column",justifyContent:"center",alignItems:"center",marginTop:"100px"}} >
-            <h3>Enter no of rooms :</h3>
+            <h3>Enter name of rooms :</h3>
             <input type="text"
              placeholder="Enter name of room" 
              value={roomname}
